@@ -4,9 +4,7 @@
     {
         public int Part1()
         {
-            var directory = AppContext.BaseDirectory;
-            var path = System.IO.Path.Combine(directory, "Inputs", "Input_D1.txt");
-            var outputLines = new InputFile().ReadInputFile(path);
+            var outputLines = new InputFile().ReadInputFile("Input_D1.txt");
             var nodeList = new LinkedList<int>();
             int startingPosition = 50;
             int passCode = 0;
@@ -50,9 +48,7 @@
 
         public int Part2()
         {
-            var directory = AppContext.BaseDirectory;
-            var path = System.IO.Path.Combine(directory, "Inputs", "Input_D1.txt");
-            var outputLines = new InputFile().ReadInputFile(path);
+            var outputLines = new InputFile().ReadInputFile("Input_D1.txt");
             var nodeList = new LinkedList<int>();
             int startingPosition = 50;
             int passCode = 0;

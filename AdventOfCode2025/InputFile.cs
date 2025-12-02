@@ -2,14 +2,17 @@
 {
     public class InputFile
     {
-        public List<string> ReadInputFile(string filePath)
+        public List<string> ReadInputFile(string fileName)
         {
-            if (!File.Exists(filePath))
+            var directory = AppContext.BaseDirectory;
+            var path = Path.Combine(directory, "Inputs", fileName);
+
+            if (!File.Exists(path))
             {
-                throw new FileNotFoundException($"The file at path {filePath} was not found.");
+                throw new FileNotFoundException($"The file at path {path} was not found.");
             }
 
-            return File.ReadAllLines(filePath).ToList();
+            return File.ReadAllLines(path).ToList();
         }
     }
 }
