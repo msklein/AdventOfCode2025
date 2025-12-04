@@ -19,5 +19,5 @@
 Day3 day3 = new Day3();
 var resultPart1 = day3.Part1();
 Console.WriteLine($"Day 3, Part 1 Result: {resultPart1}");
-//var resultPart2 = day3.Part2();
-//Console.WriteLine($"Day 3, Part 2 Result: {resultPart2}");
+var resultPart2 = day3.Part2();
+Console.WriteLine($"Day 3, Part 2 Result: {resultPart2}");
