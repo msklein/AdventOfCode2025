@@ -16,8 +16,14 @@
 
 /////////////////////////////////////////////////////////////
 
-Day3 day3 = new Day3();
-var resultPart1 = day3.Part1();
-Console.WriteLine($"Day 3, Part 1 Result: {resultPart1}");
-var resultPart2 = day3.Part2();
-Console.WriteLine($"Day 3, Part 2 Result: {resultPart2}");
+//Day3 day3 = new Day3();
+//var resultPart1 = day3.Part1();
+//Console.WriteLine($"Day 3, Part 1 Result: {resultPart1}");
+//var resultPart2 = day3.Part2();
+//Console.WriteLine($"Day 3, Part 2 Result: {resultPart2}");
+
+Day4 day4 = new Day4();
+var resultPart1 = day4.Part1();
+Console.WriteLine($"Day 4, Part 1 Result: {resultPart1}");
+var resultPart2 = day4.Part2();
+Console.WriteLine($"Day 4, Part 2 Result: {resultPart2}");
