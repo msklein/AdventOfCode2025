@@ -32,8 +32,16 @@
 
 /////////////////////////////////////////////////////////////
 
-Day5 day5 = new Day5();
-var resultPart1 = day5.Part1();
-Console.WriteLine($"Day 5, Part 1 Result: {resultPart1}");
-var resultPart2 = day5.Part2();
-Console.WriteLine($"Day 5, Part 2 Result: {resultPart2}");
+//Day5 day5 = new Day5();
+//var resultPart1 = day5.Part1();
+//Console.WriteLine($"Day 5, Part 1 Result: {resultPart1}");
+//var resultPart2 = day5.Part2();
+//Console.WriteLine($"Day 5, Part 2 Result: {resultPart2}");
+
+/////////////////////////////////////////////////////////////
+
+Day6 day6 = new Day6();
+var resultPart1 = day6.Part1();
+Console.WriteLine($"Day 6, Part 1 Result: {resultPart1}");
+//var resultPart2 = day6.Part2();
+//Console.WriteLine($"Day 6, Part 2 Result: {resultPart2}");
